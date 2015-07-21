@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+ 
+import math
+ 
+first = "Gigi"
+last = "Goanga"
+age = 47
+ 
+print first, last, age
+ 
+sideA = 12.55
+sideB = 17.85
+ 
+ 
+print "sideC =" , math.sqrt((sideA * sideA) + (sideB * sideB))
+ 
+operand1 = 95
+operand2 = 64.5
+ 
+print operand1 ,"+", operand2, "=", operand1 + operand2
+print operand1 ,"-", operand2, "=", operand1 - operand2
+print operand1 ,"*", operand2, "=", operand1 * operand2
+print operand1 ,"/", operand2, "=", operand1 / operand2
+print operand1 ,"%", operand2, "=", operand1 % operand2                                                                                                                                               
+# if one of the operands were to change you have to change just one line of code
